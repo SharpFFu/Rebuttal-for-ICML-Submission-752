@@ -37,7 +37,7 @@
 ## Supplementary Tables
 
 ### Table S1. Atari 100k ablation results
-*Caption:* Atari 100k ablation results. **HNS** denotes **human-normalized score**, the standard aggregate evaluation metric for Atari 100k. We report it here because it is the benchmark’s conventional metric for cross-game comparison.
+*Caption:* Atari 100k ablation results. **HNS** denotes **human-normalized score**, the standard aggregate evaluation metric for Atari 100k. The full method performs best, while removing value-shaped transport and loss terms reduce performance.
 
 | Method | Mean HNS | Median HNS | IQM HNS |
 |---|---:|---:|---:|
@@ -53,7 +53,7 @@
 
 ### Table S2. BSuite ablation results
 
-*Caption:* BSuite ablation results. Values are reported as mean episodic return averaged over tasks.
+*Caption:* BSuite ablation results. Values are reported as mean episodic return averaged over tasks. The full method performs best, while removing value-shaped transport and loss terms reduce performance.
 
 | Method | BSuite Mean Return |
 |---|---:|
