@@ -8,28 +8,28 @@
 ### Figure S1. ProcGen result (2 seeds)
 ![Figure S1](ProcGen_result_2seed.png)
 
-*Caption:* ProcGen evaluation with **2 seeds** on 16 tasks at 50 million steps. This figure is included to supplement the original 1-seed setting and to show the trend under a slightly more reliable multi-seed evaluation. Under this setting, FlowMAP remains competitive with the strongest baseline and stronger than the other RL baselines.
+*Caption:* ProcGen evaluation with **2 seeds** on 16 tasks at 50 million steps. This figure supplements the original 1-seed setting with a more reliable multi-seed evaluation, where FlowMAP remains competitive with the strongest baseline and stronger than the other RL baselines.
 
 ---
 
 ### Figure S2. ProcGen result (5 seeds)
 ![Figure S2](ProcGen_result_5seed.png)
 
-*Caption:* ProcGen evaluation with **5 seeds** on 16 tasks at 50 million steps. This figure provides the higher-confidence multi-seed comparison requested in the review. Compared with the original 1-seed plot, the relative ranking becomes more stable, and FlowMAP remains competitive with, and slightly stronger than, the strongest baseline.
+*Caption:* ProcGen evaluation with **5 seeds** on 16 tasks at 50 million steps. This figure provides a higher-confidence multi-seed comparison than the original 1-seed plot, showing a more stable ranking in which FlowMAP remains competitive with, and slightly stronger than, the strongest baseline.
 
 ---
 
 ### Figure S3. Sensitivity analysis for the quantile filtering ratio $\alpha$
 ![Figure S3](Sensitivity_experiment_of_alpha.png)
 
-*Caption:* Minecraft episodic return under different values of the quantile filtering ratio $\alpha$. Performance is strongest in the small-to-moderate range, with the best result observed near $\alpha=0.005$. Very small values weaken filtering, while larger values make the target set too selective and reduce robustness.
+*Caption:* Minecraft episodic return under different values of the quantile filtering ratio $\alpha$. Performance is strongest near $\alpha=0.005$: smaller values weaken filtering, while larger values make the target set too selective and reduce robustness.
 
 ---
 
 ### Figure S4. Sensitivity analysis for the temperature parameter $\beta$
 ![Figure 4](Sensitivity_experiment_of_beta.png)
 
-*Caption:* Minecraft episodic return under different values of the temperature parameter $\beta$. Performance is strongest around $\beta=1$, while both overly small and overly large values reduce return. This indicates a stable intermediate operating region for value shaping rather than brittle tuning.
+*Caption:* Minecraft episodic return under different values of the temperature parameter $\beta$. Performance is strongest around $\beta=1$, while both smaller and larger values reduce return, indicating a stable intermediate regime.
 
 ---
 
